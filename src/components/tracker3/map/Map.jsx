@@ -96,7 +96,7 @@ const Map = () => {
             value={selcountries}
             onChange={handleCountryChange}
             className="country-select"
-            defaultValue={"India"}
+            // defaultValue={"India"}
           >
             {countries.map((country) => (
               <option key={country.name} value={country.iso}>

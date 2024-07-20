@@ -56,13 +56,13 @@ export default function MapChart({ center, zoom }) {
     getData();
   }, []);
 
-  console.log(center,zoom)
+//   console.log(center,zoom)
 
   return (
     <>
     <div className="Map__main">
 
-      <MapContainer center={center === undefined ? [40,34] : center} zoom={zoom === undefined ? 2 : 6}>
+      <MapContainer center={center === undefined ? [20,77] : center} zoom={zoom === undefined ? 2 : 4}>
         <SetViewOnClick coords={center} />
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         {countries

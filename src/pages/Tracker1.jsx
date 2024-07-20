@@ -14,7 +14,7 @@ const Tracker1 = () => {
   const [dataGlobal, setDataGlobal] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState("India");
   const [zoom, setZoom] = useState(2);
-  const [center, setCenter] = useState([40, 34]);
+  const [center, setCenter] = useState([20, 77]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -33,7 +33,7 @@ const Tracker1 = () => {
         setData(result);
         const resultGlobal = await getDataGlobal();
         setDataGlobal(resultGlobal);
-        console.log(dataGlobal, "dataglobal");
+        // console.log(dataGlobal, "dataglobal");
       } catch (error) {
         console.error("Error fetching COVID data:", error);
       }
@@ -44,7 +44,7 @@ const Tracker1 = () => {
   const handleSelectCountry = (country) => {
     setSelectedCountry(country);
   };
-  console.log(selectedCountry);
+  // console.log(selectedCountry);
   const countryData = data.find(
     (country) => country.country === selectedCountry
   );
@@ -59,9 +59,9 @@ const Tracker1 = () => {
       countryData.countryInfo.long !== null
     ) {
       setCenter([countryData.countryInfo.lat, countryData.countryInfo.long]);
-      setZoom(6);
+      setZoom(3.5);
     } else {
-      setCenter([40, 34]);
+      setCenter([20, 77]);
       setZoom(2);
     }
   }, [data, selectedCountry]);
