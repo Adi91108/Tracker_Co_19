@@ -1,0 +1,134 @@
+.body {
+  background-image: linear-gradient(90deg, #1f0e9eab, #07cdecc7),
+    url("src/assets/img/3626307.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  left: 0;
+  width: 100vw;
+  height: 43.75rem;
+  z-index: -2000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1.25rem 0;
+  margin: 0 2.5rem;
+  max-width: 90rem;
+  margin: auto;
+}
+
+#info {
+  width: 35%;
+  margin-left: 12.5rem;
+}
+
+.homeH1 {
+  font-size: 3.5em;
+  font-weight: bolder;
+  color: white;
+}
+
+#subtitle {
+  margin-top: 1.88rem;
+  font-size: 1rem;
+  line-height: 1.63rem;
+  color: white;
+}
+
+#illustration img {
+  position: absolute;
+  width: 28.13rem;
+  right: 15vw;
+  top: 5rem;
+}
+
+.icon {
+  font-family: "MiIcono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+.inconos {
+  font-family: "Themify";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  color: white;
+}
+
+#homeCard {
+  background-color: white;
+  width: 25rem;
+  height: 6.25rem;
+  border-radius: 0.63rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+
+.homeFlag {
+  width: 5.63rem;
+}
+
+.homeTotals {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeCases {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 1.9rem;
+  margin: 0;
+}
+
+.homeTotals2 {
+  display: flex;
+  gap: 0.31rem;
+  justify-content: flex-end;
+}
+
+.homeTotalDeaths {
+  background-color: #ff6c0d;
+  padding: 0.19rem 0.44rem;
+  border-radius: 0.19rem;
+}
+
+.homeTotalRecovery {
+  background-color: #10d876;
+  padding: 0.19rem 0.44rem;
+  border-radius: 0.19rem;
+}
+
+.homeTotals2 p {
+  color: white;
+  font-size: 0.63rem;
+  margin-bottom: 0;
+}
+
+.homeApiIcon {
+  font-family: "Themify";
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: bold;
+  display: inline-block;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  color: #ff0000;
+  margin: auto;
+}

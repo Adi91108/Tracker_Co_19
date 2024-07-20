@@ -1,0 +1,75 @@
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.navSide {
+    background-color: #F7F8FC;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.Bars3, .ChartPie, .Squares, .Folder, .SquaresStack , .ArrowTrendingUp, .GlobeAlt, .ChatBubbleLeft, .CircleIcon{
+    font-family: 'Themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #3639AE;
+    font-size: 30px;
+    padding: 20px;
+    /* Mejorar el renderizado */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px;
+    margin-bottom: 4rem;
+    
+    
+}
+.menuSideBar {
+    height: 100%;
+}
+.menuSideBar ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    padding-left: 0;
+}
+.menuSideBar ul li span:active {
+    background-color: #3639AE;
+    border-color: #3639AE;
+    color: #F7F8FC;
+    border-radius: 10px;
+    padding: 20px;
+ 
+   
+
+}
+.menuSideBar ul li span:hover {
+    /* background-color: white; */
+    border-color: black;
+    color: #0daf94;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+.logoSide{
+
+width: 60px;
+height: 60px;
+margin-top: 20px;
+animation: rotate 6s linear infinite;
+
+}

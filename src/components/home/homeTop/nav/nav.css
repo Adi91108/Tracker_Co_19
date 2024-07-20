@@ -1,0 +1,23 @@
+
+#logoCovid{
+    width: auto;
+    object-fit: contain; 
+}
+
+nav a{
+    font-weight: bold;
+    margin-right: 1.88rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: flex-start;
+    text-decoration: none;
+    color: white;
+}
+
+.specialStyle {
+        border: none;
+        background-color: #3639ae;
+        padding: 10px 40px;
+        border-radius: 50px;
+        cursor: pointer;
+}

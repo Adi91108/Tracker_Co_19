@@ -1,0 +1,22 @@
+
+.boxTitlesHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2d2c83;
+    padding-top: 100px;;
+    margin:0 auto;
+} 
+.subtitleHome {
+    color: #2d2c83;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.titleHome{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #293f73;
+    margin: 0;
+}

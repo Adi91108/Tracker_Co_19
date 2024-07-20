@@ -1,0 +1,17 @@
+.flagContainer {
+  padding: 1rem 2.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-flow: row wrap;
+}
+
+.buttonFlag {
+  padding: 1rem;
+  border: none;
+  background-color: #FFFFFF;
+  border-radius: 0.3rem;
+  
+}
+.buttonFlag img{
+  border-radius: 50%;
+}

@@ -1,0 +1,66 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tarjetaContent {
+  overflow: hidden;
+  font-size: 25px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+
+}
+.tarjetaContent:hover {
+  transform: translateY(-10px);
+}
+.tarjetaContent:hover .background-img {
+  animation: rotate 2s linear infinite;
+}
+.totalCases {
+    position: relative;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: -10px 10px 20px #a0a0bc0c ;
+}
+.backgroundImg {
+  opacity: 0.2;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  height: 80%;
+}
+.casesStyleBlue {
+  color: #3639ae;
+  font-size: 1.5rem;
+}
+.casesStyleGreen {
+  color: #82c519;
+  font-size: 1.5rem;
+}
+.casesStyleOrange {
+  color: #ff6a07;
+  font-size: 1.5rem;
+}
+.casesStyleRed {
+  color: red;
+  font-size: 1.5rem;
+}
+.casesStyleLightBlue {
+  color: #2c6dff;
+  font-size: 1.5rem;
+}
+.casesStyleDarkRed {
+  color: #b70202;
+  font-size: 1.5rem;
+}
+.titleStyle {
+  color: black;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}

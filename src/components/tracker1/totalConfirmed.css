@@ -1,0 +1,43 @@
+.tarjetaContentTotal{
+    margin-top: 20px;
+     display: flex;
+     width: 174px;
+     height: 100px;
+     background-color: white;
+     box-shadow: -10px 10px 20px #a0a0bc0c ;
+    justify-content: center;
+     
+ }
+ .totalConfirmed{
+     display: flex;
+     flex-direction: column; 
+     padding-top: 14%;
+ }
+ .imgConfirm{
+     /* display: block; */
+     width: 100%; 
+ }
+ .txt{
+     color: #3639AE;
+     font-weight: bold;
+     font-size: 1.5rem;
+ }
+.box{
+    width: 20%; 
+    height: auto;
+    /* display: flex;
+    flex-direction: column; */
+    display: flex;
+   
+   
+}
+.totalTitleStyle{
+    color: rgb(18, 6, 71);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.confirmedStyle{
+    color: #3639ae ;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
