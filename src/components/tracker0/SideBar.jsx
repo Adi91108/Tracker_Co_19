@@ -58,15 +58,7 @@ const SideBar = () => {
                 <TbBuildingEstate size={25} />
               </span>
             </li>
-            {/* <li>
-              <span className="GlobeAlt">&#xE665;</span>
-            </li>
-            <li>
-              <span className="ChatBubbleLeft">&#xE644;</span>
-            </li>
-            <li>
-              <span className="CircleIcon">&#xE759;</span>
-            </li> */}
+           
           </ul>
         </div>
       </div>
